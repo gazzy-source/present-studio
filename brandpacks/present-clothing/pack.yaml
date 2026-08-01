@@ -1,0 +1,12 @@
+# Brand pack manifest
+# Scaffold only — no brand content authored yet.
+# Shape is provisional until contracts/brand-pack is defined.
+
+name: present-clothing
+version: 0.1.0
+status: scaffold
+
+engines: []
+adapters: []
+
+campaigns: []
