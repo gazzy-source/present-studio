@@ -8,7 +8,10 @@ Updated at the end of every work session.
 
 ## Last Updated
 
-2026-08-01 · post Creative Director phase · pack `v0.3.0` · `HEAD` at `f0daed3`
+2026-08-01 · post Creative Director phase · pack `v0.3.0`
+
+*No commit hash recorded here — it necessarily lags by one, since committing this
+file changes it. Use `git log -1 -- docs/HANDOFF.md` for the true position.*
 
 ---
 
