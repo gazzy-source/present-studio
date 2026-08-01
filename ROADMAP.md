@@ -49,23 +49,32 @@ all unknown. These cannot be invented — they are the founder's raw material.
 
 ---
 
-## Phase 3 — Engines
+## Phase 3 — Engines ✅
 
-Brand-agnostic. Buildable once contracts exist; does **not** need brand inputs.
+Brand-agnostic. Complete.
 
-- [ ] Narrative Engine — `ENG`
-- [ ] Cinematic Language Engine — `ENG`
-- [ ] Campaign Engine — `ENG`
-
-Each declares an input contract and an output contract. One engine per file.
+- [x] Narrative Engine — tension → spine → turn → beats → copy
+- [x] Cinematic Language Engine — beats → light → lens → frame → motion
+- [x] Campaign Engine — orchestrator; gates and writes memory
 
 ---
 
-## Phase 4 — Output layer
+## Phase 4 — Output layer ✅
 
-- [ ] Production Blueprints — reusable output specifications — `ENG`
-- [ ] Campaign Archetypes — brand-agnostic campaign shapes — `ENG`
-- [ ] Adapters — at least one, to render artifacts to a channel — `ENG`
+Brand-agnostic. Complete.
+
+- [x] Campaign Archetypes — `ENG`
+  - [x] `collection-launch` — 7 beats, late turn
+  - [x] `single-piece` — 5 beats, highest volume
+  - [x] `manifesto` — 6 beats, used rarely
+  - [x] `process` — 5 beats, most claim-dense
+  - [x] `world-building` — 4 beats, motif accumulation
+- [x] Production Blueprints — `ENG`
+  - [x] `short-form-reel` — 9:16, 8–15s, with archetype compression table
+  - [x] `still-series` — 3–8 frames
+- [x] Adapters — `ENG`
+  - [x] `social-vertical` — feed and story, caption rules
+- [ ] `campaign-film` blueprint — deferred; not required for the reel milestone
 
 ---
 
@@ -81,13 +90,15 @@ The success metric. Everything above is scaffolding for this.
 ## Critical path
 
 ```
-Foundation → Contracts → Engines → Blueprints → Campaign → Reels
-                  ↘ Brand Pack (also needs founder inputs) ↗
+Foundation ✅ → Contracts ✅ → Engines ✅ → Blueprints ✅ → Campaign → Reels
+                        ↘ Brand Pack ⛔ (needs founder inputs) ↗
 ```
 
-Two independent blockers sit at the front: **authorization** to author the system
-core, and **brand inputs** for Present Clothing. Engines (Phase 3) unblock with
-the first alone.
+**The entire brand-agnostic system is built.** Everything that can be
+implemented without knowing what Present Clothing is, is done.
+
+One blocker remains, and it is the only one: **Present Clothing brand inputs**.
+Phase 2 gates Phase 5 — the machine is complete and has nothing to run on.
 
 ---
 

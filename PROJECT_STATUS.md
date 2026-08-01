@@ -10,30 +10,23 @@ the task list.
 
 ---
 
-## Blockers
+## Blocker
 
-Two blockers sit at the front of the critical path. Both need the founder.
+One blocker remains, and it is the only thing standing between the system and
+its first output.
 
-### 1. `foundation/` and `contracts/` are empty
-
-The Foundation Freeze brief treats these as complete. They are not — both are
-empty directories holding only a boundary README. Nothing has been authored.
-
-This matters because `CLAUDE.md` requires contracts before content, and forbids
-inventing document classes. Brand Voice, Collection DNA and Visual Identity have
-no schemas to conform to, so authoring them now would mean inventing their shape.
-
-The Lead Engineer role explicitly may not modify Foundation or Contracts.
-**Authorization required** to author them. They are brand-agnostic and need no
-Present Clothing input — one approval unblocks Phase 1 and Phase 3.
-
-### 2. No Present Clothing brand inputs exist
+### No Present Clothing brand inputs exist
 
 The repository contains no information about Present Clothing: category,
 positioning, price tier, audience, aesthetic, collection detail. A premium
-brand's voice and DNA cannot be fabricated from an empty context.
+brand's voice and DNA cannot be fabricated from an empty context, and every
+engine refuses to invent product facts by design (gate G1).
 
-**Founder input required.** This blocks Phase 2 regardless of blocker 1.
+**Founder input required.** Blocks Phase 2, which gates Phase 5.
+
+The brand-agnostic system is complete: Foundation, Contracts, Engines,
+Archetypes, Blueprints and one Adapter are all authored and committed. The
+machine is built and has nothing to run on.
 
 ---
 
@@ -68,18 +61,19 @@ files, no unexpected entries. Committed as the repository's architecture baselin
 
 ---
 
-## Empty by design
+## Layer state
 
-| Folder | Awaiting |
+| Folder | State |
 |---|---|
-| `foundation/` | Principles, quality bar, taxonomy |
-| `contracts/` | Artifact schemas, starting with `brand-pack` |
-| `engines/` | First engine |
-| `adapters/` | First adapter |
-| `campaigns/` | Campaign archetypes |
-| `production-blueprints/` | Output specifications |
-| `docs/` | Human-facing documentation |
-| `archive/` | Nothing superseded yet |
+| `foundation/` | ✅ 4 documents — principles, premium, quality bar, taxonomy |
+| `contracts/` | ✅ 7 schemas |
+| `engines/` | ✅ 3 engines |
+| `campaigns/` | ✅ 5 archetypes |
+| `production-blueprints/` | ✅ 2 blueprints |
+| `adapters/` | ✅ 1 adapter (`social-vertical`) |
+| `brandpacks/present-clothing/` | ⛔ scaffold — blocked on founder inputs |
+| `docs/` | Empty — no human-facing docs needed yet |
+| `archive/` | Empty — nothing superseded |
 
 ---
 
