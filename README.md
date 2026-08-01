@@ -94,7 +94,8 @@ No restructuring required in any case.
 | `README.md` | Humans | What the system is and how it is arranged — start here |
 | `CLAUDE.md` | Claude Code | Conventions, constraints and workflow rules |
 | `AGENTS.md` | Both | Agent definitions, scopes and responsibilities |
-| `PROJECT_STATUS.md` | Both | Current build state, deferrals and next steps |
+| `ROADMAP.md` | Both | Engineering backlog, phases and critical path |
+| `PROJECT_STATUS.md` | Both | Current build state and active blockers |
 
 ---
 

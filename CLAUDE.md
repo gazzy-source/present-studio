@@ -8,6 +8,45 @@ client workspace.
 
 ---
 
+## Founder Preference
+
+**Default to execution.**
+
+If a reasonable implementation decision can be made without violating the
+architecture, make it. Do not ask which of two acceptable options to take — take
+one and note the choice.
+
+Reduce unnecessary confirmation requests. Batch related work together before
+asking for review.
+
+**Only interrupt for:**
+
+- Strategic business decisions
+- Irreversible architectural changes
+- Contract violations
+- Missing founder information
+
+Everything else: implement, record the decision, continue to the next task.
+
+Record future improvements as TODOs in `ROADMAP.md` or as ADR candidates. Do not
+interrupt implementation to discuss them.
+
+---
+
+## Working order (default loop)
+
+1. Read `CLAUDE.md`
+2. Read `PROJECT_STATUS.md` and `ROADMAP.md`
+3. Take the next highest-priority unblocked task
+4. Implement it, saving files to their correct location
+5. Update `PROJECT_STATUS.md` and tick `ROADMAP.md`
+6. Stage changes
+7. Continue
+
+Work continuously until a genuine founder decision is required.
+
+---
+
 ## The one hard constraint
 
 ```

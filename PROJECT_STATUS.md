@@ -3,7 +3,37 @@
 **Project:** Present Studio — Creative Intelligence Operating System
 **Version:** MVP v1.0
 **Updated:** 2026-08-01
-**Phase:** Structural scaffold complete. No system content authored.
+**Phase:** MVP Foundation Freeze. Architecture stable. Implementation blocked.
+
+Working backlog lives in [ROADMAP.md](ROADMAP.md). This file is state; ROADMAP is
+the task list.
+
+---
+
+## Blockers
+
+Two blockers sit at the front of the critical path. Both need the founder.
+
+### 1. `foundation/` and `contracts/` are empty
+
+The Foundation Freeze brief treats these as complete. They are not — both are
+empty directories holding only a boundary README. Nothing has been authored.
+
+This matters because `CLAUDE.md` requires contracts before content, and forbids
+inventing document classes. Brand Voice, Collection DNA and Visual Identity have
+no schemas to conform to, so authoring them now would mean inventing their shape.
+
+The Lead Engineer role explicitly may not modify Foundation or Contracts.
+**Authorization required** to author them. They are brand-agnostic and need no
+Present Clothing input — one approval unblocks Phase 1 and Phase 3.
+
+### 2. No Present Clothing brand inputs exist
+
+The repository contains no information about Present Clothing: category,
+positioning, price tier, audience, aesthetic, collection detail. A premium
+brand's voice and DNA cannot be fabricated from an empty context.
+
+**Founder input required.** This blocks Phase 2 regardless of blocker 1.
 
 ---
 
@@ -29,8 +59,9 @@ files, no unexpected entries. Committed as the repository's architecture baselin
 | Framework architecture | Defined and enforced by the dependency rule |
 | Directory structure | Complete |
 | `README.md` | System overview and repository map — for humans |
-| `CLAUDE.md` | Conventions, constraints and workflow rules — for Claude Code |
+| `CLAUDE.md` | Conventions, workflow rules, Founder Preference — for Claude Code |
 | `AGENTS.md` | Agent scopes, definition schema and roster (roster empty) |
+| `ROADMAP.md` | Engineering backlog and critical path |
 | `PROJECT_STATUS.md` | This file |
 | Folder boundary READMEs | One per system folder |
 | `brandpacks/present-clothing/` | Scaffold + empty manifest. No brand content. |
