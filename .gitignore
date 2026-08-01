@@ -13,3 +13,6 @@ build/
 
 # Windows NTFS alternate data streams (WSL copy artifacts)
 *:Zone.Identifier
+
+# Claude Code local settings
+.claude/settings.local.json

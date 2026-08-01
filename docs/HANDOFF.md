@@ -8,7 +8,7 @@ Updated at the end of every work session.
 
 ## Last Updated
 
-2026-08-02 · post Creative Director phase · pack `v0.3.0`
+2026-08-01 · post Creative Director phase · pack `v0.3.0` · `HEAD` at `f0daed3`
 
 ---
 

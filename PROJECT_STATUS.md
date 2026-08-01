@@ -1,9 +1,10 @@
 # Project Status
 
 **Project:** Present Studio — Creative Intelligence Operating System
-**Version:** MVP v1.0
+**Version:** MVP v1.0 · Present Clothing pack v0.3.0
 **Updated:** 2026-08-01
-**Phase:** MVP Foundation Freeze. Architecture stable. Implementation blocked.
+**Phase:** Post Creative Director. System and brand direction complete.
+Production blocked on verified product facts.
 
 Working backlog lives in [ROADMAP.md](ROADMAP.md). This file is state; ROADMAP is
 the task list.
