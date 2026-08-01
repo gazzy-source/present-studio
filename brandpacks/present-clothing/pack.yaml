@@ -2,13 +2,13 @@
 # Conforms to contracts/brand-pack.md
 #
 # status: partial
-#   All four required artifacts exist and are structurally conformant, but
-#   collection-dna.md holds no verified facts and all pieces are `concept`.
-#   Campaigns are therefore blocked at engine level, not by convention.
+#   All four contract-required artifacts exist. Three are conformant.
+#   collection-dna.md holds no verified facts and all pieces are `concept`,
+#   so campaigns are blocked at engine level rather than by convention.
 #   Set to `complete` when collection-dna.md carries verified pieces.
 
 name: present-clothing
-version: 0.1.0
+version: 0.3.0
 status: partial
 
 engines:
@@ -24,21 +24,39 @@ adapters:
 
 campaigns: []
 
-# Required artifacts — contracts/brand-pack.md
+# ── Contract-required artifacts — contracts/brand-pack.md ──
 artifacts:
-  brand-voice:      { file: brand/brand-voice.md,      conformant: true  }
-  collection-dna:   { file: brand/collection-dna.md,   conformant: false }
-  visual-identity:  { file: brand/visual-identity.md,  conformant: true  }
-  campaign-memory:  { file: brand/campaign-memory.md,  conformant: true  }
+  brand-voice:      { file: brand/brand-voice.md,      version: 0.2.0, conformant: true  }
+  collection-dna:   { file: brand/collection-dna.md,   version: 0.1.0, conformant: false }
+  visual-identity:  { file: brand/visual-identity.md,  version: 0.2.0, conformant: true  }
+  campaign-memory:  { file: brand/campaign-memory.md,  version: 0.2.0, conformant: true  }
 
-# Supporting documents — founder-specified, not contract-governed
+# ── Supporting documents — not contract-governed ──
+# Layer 1 permanent · Layer 2 long-lived · Layer 3 versions freely
+# Chain: brand-laws -> creative-principles -> visual-identity / brand-voice -> campaigns
 supporting:
-  - brand/brand-bible.md
-  - brand/audience.md
-  - brand/product-philosophy.md
+  - { file: brand/brand-laws.md,           layer: 1, version: permanent, status: active }
+  - { file: brand/creative-principles.md,  layer: 2, version: permanent, status: active }
+  - { file: brand/brand-bible.md,          layer: "1-4", status: active }
+  - { file: brand/product-philosophy.md,   layer: 4, status: active }
+  - { file: brand/campaign-system.md,      layer: 3, version: 1.1.0, status: active }
+  - { file: brand/reel-brief-template.md,  layer: 3, version: 1.1.0, status: active }
+  - { file: brand/escalation-ledger.md,    layer: 3, version: 1.0.0, status: active }
+  - { file: brand/audience.md,             layer: 4, version: 0.1.0, status: proposed }
 
-# Blocking gap — see brand/collection-dna.md
+# ── Blocking gaps ──
 blockers:
   - collection-dna has no verified facts; all four pieces are `concept`
   - no maker's detail recorded for any piece (required field)
   - provenance unnamed; all campaigns run with zero origin claims
+  - collection-dna predates the Creative Director phase and still carries the
+    superseded weight-as-thesis framing; supersede when real product data lands
+  - audience.md predates the Creative Director phase; status remains `proposed`
+  - base city unset; all location IDs provisional (campaign-system.md §7.5)
+
+# ── Referenced but absent from the repository ──
+# campaign-memory.md records ten briefs pending Critic evaluation. No brief
+# files exist under brand/campaigns/. Not an error in the pack; the briefs were
+# generated outside the repository and have not been committed.
+pending_import:
+  - { ids: "R-001..R-010", expected_path: campaigns/, status: not_in_repository }

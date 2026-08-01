@@ -2,19 +2,29 @@
 
 ```yaml
 contract: brand-voice
-version: 0.1.0
-status: proposed
+version: 0.2.0
+status: active
+layer: 3
+derives_from: creative-principles.md
 ```
 
-> **Status: PROPOSED.** No founder writing samples were supplied. Calibration
-> pairs are constructed, not observed. Replace with real founder writing when
-> available — voice is the artifact that most rewards real source material.
+> **Layer 3 — execution.** This document versions freely and is reviewed every
+> two collections. It states *how* copy is executed. `creative-principles.md`
+> states *why*. `brand-laws.md` is permanent and sits above both.
+>
+> **Derivation rule:** every rule here cites the principle it serves. An orphan
+> rule is deleted, not grandfathered.
+>
+> **Gap:** calibration pairs are constructed rather than drawn from founder
+> writing. Voice fidelity will be approximate until real samples exist.
 
 ---
 
 ## Stance
 
-Clothing should return you to the present, not perform for the future.
+You stop needing to explain yourself.
+
+*The Promise, from `brand-bible.md` Tier 3. Internal. Never deployed as copy.*
 
 ---
 
@@ -24,24 +34,24 @@ Clothing should return you to the present, not perform for the future.
 
 Used for: product description, material, construction, anything factual.
 
-> Twenty-ounce cotton, dry-finished. The hem sits below the hip because a
-> shorter one rides when you sit down.
+> 420gsm loopback, dry-finished. The hem sits below the hip because a shorter
+> one rides when you sit down.
 
-### `weather` — campaign narrative, atmosphere
+### `hour` — campaign narrative, atmosphere
 
-Used for: campaign beats, world-building, anything without a claim.
+Used for: campaign beats, world-building, anything without a claim. Covers hour,
+place and weather.
 
-> The rain arrives from the west here. You hear it on the roof four minutes
-> before it reaches the street.
+> The lights come on at six. He is already on the third set.
 
 ### `flat` — direct address, announcements
 
 Used for: availability, restocks, correspondence. Shortest and least decorated.
 
-> The coat is back. Same weight, longer sleeve.
+> Back in stock. Same weight, longer body.
 
 **Selection rule:** if the sentence contains a product fact, use `plain`. If it
-contains weather, hour or place, use `weather`. If it asks the reader to do
+contains an hour, a place or weather, use `hour`. If it asks the reader to do
 something, use `flat`.
 
 ---
@@ -61,16 +71,21 @@ something, use `flat`.
 
 ## Vocabulary — owned
 
-Drawn from the brand's material world, not from category positives.
+Drawn from the brand's material and temporal world, not from category positives.
 
-`weight` · `ounce` · `hand` · `drape` · `hem` · `seam` · `selvedge` · `dry`
-· `raw` · `overcast` · `westerly` · `dry-finished` · `bar-tacked` · `dye lot`
-· `unlined` · `worn-in` · `holds` · `sits` · `resists` · `settles` · `salt`
-· `concrete` · `the hour before` · `still` · `ordinary`
+`weight` · `gsm` · `ounce` · `hand` · `drape` · `hem` · `seam` · `loopback`
+· `dry` · `raw` · `overcast` · `dry-finished` · `bar-tacked` · `dye lot`
+· `unlined` · `worn-in` · `holds` · `sits` · `resists` · `settles`
+· `concrete` · `the hour before` · `again` · `same` · `still` · `ordinary`
+· `cold room`
 
 ---
 
 ## Vocabulary — forbidden
+
+### Lifestyle and status register
+
+*Serves P2 — evidence over description.*
 
 | Word | Reason |
 |---|---|
@@ -78,17 +93,38 @@ Drawn from the brand's material world, not from category positives.
 | `elevated` | Ranks the customer. Implies where they were before |
 | `curated` | Means selected. Says selection is remarkable |
 | `timeless` | Unverifiable claim about the future |
-| `iconic` | Status self-described (`premium.md` anti-signal) |
+| `iconic` | Status self-described |
 | `luxury` / `premium` | Naming status forfeits it |
 | `essential` / `must-have` | Manufactured necessity |
 | `versatile` | Says the garment has no position |
 | `buttery` / `insanely soft` | Category filler, brand-agnostic |
-| `drop` (as hype) | Borrowed from streetwear scarcity culture |
+| `drop` (as hype) | Borrowed from scarcity culture |
 | `journey` / `elevate your` | Lifestyle-brand register |
 | `game-changing` / `unmatched` | Superlative claims |
 
+### Motivational register
+
+*Serves P2 and L3 — nothing is conferred by outcome.*
+
+| Word | Reason |
+|---|---|
+| `hustle` | Names effort as identity. Sells the grind as the product |
+| `grind` | Same. Also aestheticises exhaustion |
+| `no days off` | Instructs. Fails L1 |
+| `beast mode` | Performance register. The brand is not performative |
+| `level up` / `unlock` | Progress narrated as achievement |
+| `era` | Frames life as chapters with outcomes |
+| `mindset` | Self-optimisation register |
+| `trust the process` | Explains the philosophy. Fails L4 |
+| `earned` (as slogan) | Confers identity by outcome |
+| `5am` (as virtue) | Signals discipline rather than showing it |
+
+**Internal-only descriptor.** *Everyday hustlers* appears in external repository
+metadata. It is a descriptor, never voice, and must not enter copy.
+
 **Generalise from the reasons.** Any word that ranks the customer, claims the
-future, or names its own status is out, whether listed or not.
+future, instructs the reader, or names its own status is out, whether listed or
+not.
 
 ---
 
@@ -100,8 +136,8 @@ future, or names its own status is out, whether listed or not.
 - **Contractions:** permitted in `flat`, avoided in `plain`
 - **Punctuation:** full stops. No exclamation marks, ever. Em dashes sparingly
 - **Capitalisation:** sentence case throughout. No title case, no all-caps
-- **Numerals:** always numerals for measurements. `20oz`, not "twenty ounce",
-  except when opening a sentence
+- **Numerals:** always numerals for measurements. `420gsm`, not "four hundred
+  and twenty", except when opening a sentence
 
 ---
 
@@ -123,17 +159,24 @@ Not:
 
 ## Prohibitions
 
-Absolute. Any occurrence is a hard-gate failure (G5).
+Absolute. Any occurrence is a hard-gate failure (G5). Each cites its parent
+principle.
 
-1. No exclamation marks
-2. No superlatives
-3. No urgency, scarcity or countdown language
-4. No self-description as luxury, premium, exclusive or elevated
-5. No stated emotion — never tell the reader how the garment makes them feel
-6. No "we" as brand voice
-7. No unverifiable future claims
-8. No discount or sale framing in campaign copy
-9. No hashtags in campaign copy
+| # | Prohibition | Serves |
+|---|---|---|
+| 1 | No exclamation marks | P4 |
+| 2 | No superlatives | P2 |
+| 3 | No urgency, scarcity or countdown language | P4 |
+| 4 | No self-description as luxury, premium, exclusive or elevated | P2 |
+| 5 | No stated emotion — never tell the reader how the garment makes them feel | P2 |
+| 6 | No "we" as brand voice | P4 |
+| 7 | No unverifiable future claims | P2 |
+| 8 | No discount or sale framing in campaign copy | P4 |
+| 9 | No hashtags in campaign copy | P4 |
+| 10 | No motivational register, imperative, or instruction to the reader | P4 |
+| 11 | The Belief, Territory, Tension and Promise never appear as copy | P2 |
+
+Prohibitions derive from `creative-principles.md`. They are not restated there.
 
 ---
 
@@ -143,7 +186,7 @@ Matched pairs. Same idea, in voice and out.
 
 **1 — Fabric weight**
 
-> ✅ Twenty ounces. It hangs straight from the shoulder and stays there.
+> ✅ 420gsm. It hangs straight from the shoulder and stays there.
 > ❌ Crafted from luxuriously heavyweight cotton for an effortlessly refined drape.
 
 **2 — Construction detail**
@@ -153,17 +196,17 @@ Matched pairs. Same idea, in voice and out.
 
 **3 — Availability**
 
-> ✅ The coat is back. Same weight, longer sleeve.
+> ✅ Back in stock. Same weight, longer body.
 > ❌ Back by popular demand! Don't miss your chance to own this iconic piece.
 
 **4 — Atmosphere**
 
-> ✅ The rain arrives from the west here. You hear it before it reaches the street.
-> ❌ Embrace the elements in a jacket designed for your everyday adventures.
+> ✅ The lights come on at six. He is already on the third set.
+> ❌ Embrace every rep in gear designed for your fitness journey.
 
 **5 — Range logic**
 
-> ✅ Four pieces. We made the same coat again, with a longer sleeve.
+> ✅ We made the same piece again, with a longer body.
 > ❌ Explore our curated collection of versatile, timeless wardrobe essentials.
 
 ---
@@ -174,11 +217,10 @@ Matched pairs. Same idea, in voice and out.
 - [x] Stance arguable, one sentence
 - [x] Three registers with triggers and examples
 - [x] Cadence quantified
-- [x] 25 owned words, none generic category positives
-- [x] 12+ forbidden words, each reasoned
+- [x] 27 owned words, none generic category positives
+- [x] 22 forbidden words, each reasoned
 - [x] 5 calibration pairs on matched ideas
 - [x] Breaks under substitution — the owned vocabulary and stance are not portable
 - [x] No product claims present
-
-**Gap:** calibration pairs are constructed rather than drawn from founder
-writing. Voice fidelity will be approximate until real samples exist.
+- [x] Every prohibition cites a parent principle
+- [x] No law or principle text restated in this file

@@ -1,121 +1,112 @@
 # Present Clothing — Product Philosophy
 
-> **Status: PROPOSED.** No product, supplier or manufacturing information was
-> supplied. This states what the brand *would* believe given its stance. Every
-> specific number is `unverified`.
+> **Status: ACTIVE.** Tier 4. Versions freely as categories are added.
+> Every specific number remains `unverified` until founder input is supplied.
 
-Supporting document. Not contract-governed. Supplies the making logic that
-`collection-dna.md` records as fact.
-
----
-
-## The rule
-
-**Weight before everything.**
-
-Fabric weight is the first decision on every piece and the one that cannot be
-compromised to hit a price. If the weight has to drop, the piece does not ship.
-
-Weight is the thesis made physical (`brand-bible.md`). A lighter version of a
-Present garment is not a cheaper version — it is a different brand.
+Supporting document. Not contract-governed. Carries Tier 4 of the hierarchy in
+`brand-bible.md`. Supplies the making logic that `collection-dna.md` records as
+fact per piece.
 
 ---
 
-## Making principles
+## The principle
 
-### 1. Repeat, revise, never replace
+**Every product carries physical evidence that it was made to be used
+repeatedly.**
 
-A piece is not retired because a season ended. It returns, changed where it was
-wrong. The sleeve gets longer. The pocket moves. The colour is dropped.
+This is the principle. Weight is not the principle — weight is the first route
+to it in a garment, and one route among several.
 
-Seasons are revision cycles, not collections.
-
-### 2. Small range, definitive pieces
-
-Four to eight pieces at any time. Each is the answer to its category, not an
-option within it. Two pieces serving the same purpose means one is wrong.
-
-### 3. Construction is the price
-
-Every price difference against a cheaper equivalent must be pointable — a
-technique, a weight, a finishing step. If it cannot be pointed at, the price is
-markup and the brand cannot defend it (`premium.md` — craft evidence).
-
-### 4. Unlined by default
-
-Linings hide construction. Where a lining is not structurally required, the
-inside is finished to be seen. What the garment looks like inside is the honest
-signal.
-
-### 5. Fail predictably
-
-Every garment has a first failure point. It is identified during development and
-reinforced. Naming it publicly is a strength, not an admission.
-
-### 6. No performance claims without testing
-
-Water resistance, wind resistance, durability ratings — stated only with
-documentation. Untested is `unverified` and never appears in output (G1).
-
-### 7. Colour is subtractive
-
-The palette narrows over time. New colours enter rarely and permanently. Seasonal
-colour is trend behaviour and is rejected.
+The distinction is load-bearing. A thesis that depends on heavyweight fabric
+caps the brand at fleece and outerwear forever. The brand must be able to make a
+tee, a cap, a bag and categories that do not yet exist without its philosophy
+changing.
 
 ---
 
-## Materials position
+## The three requirements
 
-> All specifics `unverified` — placeholders pending founder confirmation.
+Every product, in every category, must satisfy all three.
 
-| Principle | Position |
+### 1 — Perceptibility
+
+The object must be noticeable enough to mark a day. An object that disappears
+cannot keep a record.
+
+Weight is the most direct route in a garment. Density, structure, hand and
+temperature are the others. The requirement is perceptibility, not mass.
+
+### 2 — Evidence of decision
+
+The object must carry visible evidence that someone anticipated a failure that
+would happen years later, to a stranger, and worked against it.
+
+An object that took no decisions cannot testify to a practice that consists of
+nothing but decisions.
+
+### 3 — Continuity
+
+The object must be capable of being present across repetitions — the good days
+and the ones with nothing to show for them.
+
+This is why the range is small, repeated and revised rather than replaced. A
+garment replaced each season cannot accumulate a record.
+
+---
+
+## Evidence by category
+
+Each category declares its own proof. The principle does not change; the proof
+does.
+
+| Category | The evidence |
 |---|---|
-| Fibre | Natural, undyed or piece-dyed where possible |
-| Weight floor | Nothing below `[unverified]`oz in outerwear |
-| Finishing | Dry-finished. No softeners that wash out |
-| Trims | Metal and horn over plastic |
-| Origin | Named mills and makers, or nothing said |
+| Fleece, outerwear | Weight. gsm, oz, how it hangs and stays |
+| Tees | Yarn, fabric density, collar construction — the part that fails first |
+| Bottoms | Stress points, bar-tacks, hardware |
+| Knitwear | Gauge, ply, how the cuff recovers |
+| Bags, accessories | Hardware, stitch density, lining, edge finish |
+| Footwear *(not currently in range)* | Last, welt, midsole density |
+| Future categories | The honest equivalent, named per category before launch |
 
-**Origin rule:** if the mill or factory cannot be named publicly, no origin claim
-is made at all. Vague provenance ("European craftsmanship") is an anti-signal.
-
----
-
-## What the brand will not make
-
-Defining by exclusion, per the stance:
-
-- Anything below the weight floor
-- Seasonal colourways
-- Logo-forward product
-- Performance-technical fabric
-- Collaborations that dilute the range
-- Anything requiring a size chart with more than one fit intent
-- Accessories that exist only to widen the range
+A category cannot launch without its evidence named.
 
 ---
 
-## The maker's detail requirement
+## Rules
 
-Every piece must carry **at least one decision that was genuinely difficult** —
-the thing argued about, changed twice, or done the expensive way.
+1. **Evidence before price.** If the evidence has to be removed to hit a price,
+   the piece does not ship.
+2. **The maker's detail.** Every piece records the decision that was genuinely
+   difficult. A piece without one is not finished.
+3. **Facts, not adjectives.** Every claim about a product is a number, a
+   technique, or a named material.
+4. **Repeat rather than replace.** The same piece, revised, for years. Newness
+   is not a reason to make something.
+5. **No performance claims.** The brand does not claim what a garment will do
+   for the wearer.
+6. **No origin claims without a named source.** Either the mill and factory are
+   named, or no origin claim is made at all.
 
-This is a production requirement, not a marketing one. `collection-dna` requires
-it as a field; `single-piece` and `process` are load-bearing on it. A piece
-without a maker's detail is a piece with nothing to say.
+---
 
-**Test:** could a competent factory produce this to the same spec from a tech
-pack alone? If yes, the detail has not been found yet.
+## The Substitution Test
+
+Run before any change to this document:
+
+> Replace the category. If anything in `brand-bible.md` Tiers 1–3 needs
+> rewriting, the change was made at the wrong tier.
+
+Tier 4 may change freely. Tiers 1–3 may not.
 
 ---
 
 ## Open founder decisions
 
-Blocking. `collection-dna.md` cannot leave `unverified` without these.
+Blocking `collection-dna.md`.
 
-1. What is the actual weight floor?
-2. Which mills and makers — nameable publicly?
-3. Piece-dyed or yarn-dyed? Confirms the palette approach
-4. Real price points
-5. For each existing piece: the maker's detail
-6. Has anything been tested for a performance claim?
+1. Range definition — which pieces exist or will exist
+2. Price band
+3. Per piece: materials with fibre percentages, weight, construction, sizing,
+   price, and the maker's detail
+4. Mill and factory names, or an explicit decision to make no origin claims

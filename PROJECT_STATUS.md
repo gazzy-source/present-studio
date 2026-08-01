@@ -17,24 +17,34 @@ its first output.
 
 ### No verified Present Clothing product facts exist
 
-The Brand Pack is now authored as a **proposal** derived from the brand name
-alone — brand bible, voice, audience, product philosophy, visual identity and
-campaign memory are all in place and contract-conformant.
+The Creative Director phase has landed. Eleven brand documents are in place, with
+a four-layer derivation chain enforced from permanent laws down to execution.
 
-`collection-dna.md` is the exception. It is structurally complete but holds
-**zero verified facts**: four pieces at `status: concept`, `[unverified]`
-materials, weights, construction and prices, and no maker's detail on any piece.
+`collection-dna.md` is the sole non-conformant artifact. It holds **zero verified
+facts**: four pieces at `status: concept`, `[unverified]` materials, weights,
+construction and prices, and no maker's detail on any piece. It also predates the
+Creative Director phase and still frames weight as the thesis, which
+`product-philosophy.md` has since superseded — weight is now one route to
+evidence, not the principle.
 
-**This blocks Phase 5 structurally, not by convention.** Concept pieces are never
-campaigned (`campaign` contract, rule 2) and unverified facts never reach output
-(gate G1) — so any engine asked to generate a campaign will report the gap and
-refuse. The blocker lives in the system rather than in a conversation.
+**This blocks production structurally, not by convention.** Concept pieces are
+never campaigned (`campaign` contract, rule 2) and unverified facts never reach
+output (gate G1), so any engine asked to generate a campaign reports the gap and
+refuses.
 
 **Founder input required:** per piece — materials with fibre percentages, weight,
 construction, sizing, price, and the maker's detail. Plus mill and factory names,
 or an explicit decision to make no origin claims.
 
-Fill those, set pieces to `production`, and everything downstream runs.
+### Secondary blockers
+
+- **Base city unset.** `campaign-system.md` §7.5 records all location IDs as
+  provisional. K3 collision checking and D6 city rationing cannot operate on real
+  values until fixed.
+- **Ten briefs referenced but absent.** `campaign-memory.md` records R-001 to
+  R-010 as existing and pending Critic evaluation. No brief files exist under
+  `brandpacks/present-clothing/campaigns/`. Recorded in `pack.yaml` as
+  `pending_import`.
 
 ---
 
@@ -79,7 +89,7 @@ files, no unexpected entries. Committed as the repository's architecture baselin
 | `campaigns/` | ✅ 5 archetypes |
 | `production-blueprints/` | ✅ 2 blueprints |
 | `adapters/` | ✅ 1 adapter (`social-vertical`) |
-| `brandpacks/present-clothing/` | 🚧 `partial` — 7 artifacts authored; `collection-dna` has no verified facts |
+| `brandpacks/present-clothing/` | 🚧 `partial` v0.3.0 — 12 documents; `collection-dna` non-conformant |
 | `docs/` | Empty — no human-facing docs needed yet |
 | `archive/` | Empty — nothing superseded |
 

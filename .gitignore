@@ -10,3 +10,6 @@ build/
 .vscode/
 .idea/
 .env
+
+# Windows NTFS alternate data streams (WSL copy artifacts)
+*:Zone.Identifier

@@ -58,7 +58,8 @@ and only if the brand has stayed consistent in the interval.
 
 ## Who this is not for
 
-Naming the exclusion is required by the stance (`premium.md` — point of view).
+Naming the exclusion is required by the stance (`foundation/premium.md` — point
+of view).
 
 - **Trend buyers.** Newness is not offered.
 - **People shopping for a future self.** The brand sells for now, in ordinary

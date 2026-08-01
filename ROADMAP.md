@@ -35,25 +35,38 @@ The gate for everything downstream. Authored under founder authorization
 
 ## Phase 2 — Present Clothing Brand Pack 🚧
 
-Authored as a **proposal** derived from the brand name alone, since no founder
-inputs were supplied. Structure is complete; facts are not.
+Creative Director phase complete. Twelve documents, four-layer derivation chain.
+Pack `v0.3.0`, `status: partial`.
 
-- [x] `pack.yaml` — conformant, `status: partial`, blockers declared
-- [x] `brand-bible.md` — name reading, thesis, tension, stance, world
-- [x] `brand-voice.md` — conformant; 3 registers, 25 owned words, 5 calibration pairs
-- [x] `audience.md` — behaviour-defined segments, objections, archetype mapping
-- [x] `product-philosophy.md` — weight-first making logic
-- [x] `visual-identity.md` — conformant; 5 motifs, gaze policy, 10 prohibitions
-- [x] `campaign-memory.md` — conformant, empty, ready to log
-- [ ] ⛔ `collection-dna.md` — structurally complete, **zero verified facts**
+**Layer 1 — permanent**
+- [x] `brand-laws.md` — The One Test, L1–L5, no exception path
 
-**Blocker:** all four pieces are `status: concept` with `[unverified]` materials,
-weights, construction, prices — and no maker's detail. Concept pieces are never
-campaigned (`campaign` contract) and unverified facts never reach output (G1), so
-Phase 5 is blocked at engine level rather than by convention.
+**Layer 2 — long-lived**
+- [x] `creative-principles.md` — P1–P5, each citing its parent law
 
-Everything except real product data is now in place. Fill `collection-dna.md` and
-the pack goes live.
+**Tier structure**
+- [x] `brand-bible.md` — Belief, Territory (The Middle), Tension, Promise; tiers 1–3 frozen
+- [x] `product-philosophy.md` — evidence of repeated use; weight is a route, not the principle
+
+**Layer 3 — versions freely**
+- [x] `campaign-system.md` v1.1.0 — C1–C8, 14 dimensions, K1–K9, discovery D1–D6
+- [x] `reel-brief-template.md` v1.1.0 — 23 fields, pre-production checks
+- [x] `escalation-ledger.md` v1.0.0 — empty; era changes, one rule per era
+- [x] `brand-voice.md` v0.2.0 — conformant; 3 registers, 27 owned words, 11 prohibitions
+- [x] `visual-identity.md` v0.2.0 — conformant; 6 motifs, sound, 24fps
+
+**Contract artifacts**
+- [x] `campaign-memory.md` v0.2.0 — conformant; discovery ledger, cooldowns, drift
+- [x] `pack.yaml` v0.3.0 — all 12 documents referenced, blockers declared
+- [ ] ⛔ `collection-dna.md` v0.1.0 — **non-conformant, zero verified facts**
+- [ ] `audience.md` v0.1.0 — predates CD phase, still `proposed`
+
+**Blocker:** four pieces at `status: concept`, all facts `[unverified]`, no
+maker's detail. Concept pieces are never campaigned and unverified facts never
+reach output (G1), so production is blocked at engine level.
+
+**Secondary:** base city unset (`campaign-system.md` §7.5); briefs R-001 to R-010
+recorded in memory but absent from the repository.
 
 ---
 
@@ -99,14 +112,15 @@ The success metric. Everything above is scaffolding for this.
 
 ```
 Foundation ✅ → Contracts ✅ → Engines ✅ → Blueprints ✅ → Campaign → Reels
-                        ↘ Brand Pack ⛔ (needs founder inputs) ↗
+                        ↘ Brand Pack 🚧 (11 of 12 done) ↗
 ```
 
-**The entire brand-agnostic system is built.** Everything that can be
-implemented without knowing what Present Clothing is, is done.
+**System and brand direction are both built.** The Creative Director phase closed
+the strategy gap: laws, principles, voice, visual language, campaign system and
+brief template are all authoritative.
 
-One blocker remains, and it is the only one: **Present Clothing brand inputs**.
-Phase 2 gates Phase 5 — the machine is complete and has nothing to run on.
+**One blocker remains: verified product facts in `collection-dna.md`.** Nothing
+else gates production.
 
 ---
 
@@ -123,3 +137,14 @@ Recorded, not acted on. Do not interrupt implementation for these.
 - **TODO:** `LICENSE` was removed in the architecture rebuild. Decide whether the
   project ships with one.
 - **TODO:** second brand pack, to prove the isolation boundary genuinely holds.
+- **ADR:** engine placement for campaign sampling and memory-query logic — extend
+  root `campaign-engine` or add a new engine. Raised in `campaign-system.md` §7.4;
+  standing recommendation is extend, add nothing. Architect decision.
+- **ADR:** K6 / Mechanism 1 contradiction — `campaign-system.md` §7.1. Briefs
+  proceeded on 4 practice classes; formal resolution outstanding.
+- **TODO:** import briefs R-001 to R-010 into `brandpacks/present-clothing/campaigns/`,
+  or correct the note in `campaign-memory.md` that records them as existing.
+- **TODO:** `audience.md` predates the Creative Director phase and still carries
+  the superseded weight-as-thesis framing. Supersede or retire; archive if retired.
+- **TODO:** `execution-rules.md` is deliberately absent (`creative-principles.md`
+  Layer 3 note). Create only if multiple photographers or agencies appear.
