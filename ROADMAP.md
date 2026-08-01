@@ -10,25 +10,26 @@ premium campaigns for Present Clothing.
 
 ---
 
-## Phase 1 — System core 🚧
+## Phase 1 — System core ✅
 
-The gate for everything downstream. Nothing in Phase 2+ can be authored
-correctly until contracts exist to constrain it.
+The gate for everything downstream. Authored under founder authorization
+2026-08-01.
 
 - [x] Repository architecture — `ENG`
 - [x] Root documents (README, CLAUDE, AGENTS, PROJECT_STATUS, ROADMAP) — `ENG`
-- [ ] ⛔ **Foundation** — invariants, definition of premium, quality bar, taxonomy — `FOUNDER`
-- [ ] ⛔ **Contracts** — artifact schemas — `FOUNDER`
-  - [ ] `brand-pack` — what a valid pack is
-  - [ ] `brand-voice`
-  - [ ] `collection-dna`
-  - [ ] `visual-identity`
-  - [ ] `campaign`
-  - [ ] `production-blueprint`
-
-**Blocker:** `foundation/` and `contracts/` are empty directories. Authoring them
-is prohibited to the Lead Engineer role without founder authorization. See
-PROJECT_STATUS.md → Blockers.
+- [x] **Foundation** — `ENG`
+  - [x] `principles` — nine reasoning rules with precedence order
+  - [x] `premium` — five signals, nine anti-signals, substitution test
+  - [x] `quality-bar` — 5 hard gates, 6 soft gates, scoring, revision rule
+  - [x] `taxonomy` — shared vocabulary and naming conventions
+- [x] **Contracts** — `ENG`
+  - [x] `brand-pack` — what a valid pack is
+  - [x] `brand-voice`
+  - [x] `collection-dna`
+  - [x] `visual-identity`
+  - [x] `campaign`
+  - [x] `campaign-memory` — added; `brand-pack` requires it as a fourth artifact
+  - [x] `production-blueprint`
 
 ---
 
