@@ -1,12 +1,44 @@
 # Brand pack manifest
-# Scaffold only — no brand content authored yet.
-# Shape is provisional until contracts/brand-pack is defined.
+# Conforms to contracts/brand-pack.md
+#
+# status: partial
+#   All four required artifacts exist and are structurally conformant, but
+#   collection-dna.md holds no verified facts and all pieces are `concept`.
+#   Campaigns are therefore blocked at engine level, not by convention.
+#   Set to `complete` when collection-dna.md carries verified pieces.
 
 name: present-clothing
 version: 0.1.0
-status: scaffold
+status: partial
 
-engines: []
-adapters: []
+engines:
+  - narrative-engine
+  - cinematic-language-engine
+  - campaign-engine
+
+adapters:
+  - id: social-vertical
+    config:
+      caption_tag: none          # brand-voice prohibition 9: no hashtags
+      cover_frame: from-beats    # never platform auto-thumbnail
 
 campaigns: []
+
+# Required artifacts — contracts/brand-pack.md
+artifacts:
+  brand-voice:      { file: brand/brand-voice.md,      conformant: true  }
+  collection-dna:   { file: brand/collection-dna.md,   conformant: false }
+  visual-identity:  { file: brand/visual-identity.md,  conformant: true  }
+  campaign-memory:  { file: brand/campaign-memory.md,  conformant: true  }
+
+# Supporting documents — founder-specified, not contract-governed
+supporting:
+  - brand/brand-bible.md
+  - brand/audience.md
+  - brand/product-philosophy.md
+
+# Blocking gap — see brand/collection-dna.md
+blockers:
+  - collection-dna has no verified facts; all four pieces are `concept`
+  - no maker's detail recorded for any piece (required field)
+  - provenance unnamed; all campaigns run with zero origin claims

@@ -33,19 +33,27 @@ The gate for everything downstream. Authored under founder authorization
 
 ---
 
-## Phase 2 — Present Clothing Brand Pack ⛔
+## Phase 2 — Present Clothing Brand Pack 🚧
 
-Blocked by Phase 1 (no contracts to conform to) **and** by missing brand inputs.
+Authored as a **proposal** derived from the brand name alone, since no founder
+inputs were supplied. Structure is complete; facts are not.
 
-- [ ] Brand Pack manifest — promote `pack.yaml` from scaffold to conformant — `ENG`
-- [ ] Brand Voice — `FOUNDER` input required
-- [ ] Collection DNA — `FOUNDER` input required
-- [ ] Visual Identity — `FOUNDER` input required
-- [ ] Campaign Memory — `ENG` once the above land
+- [x] `pack.yaml` — conformant, `status: partial`, blockers declared
+- [x] `brand-bible.md` — name reading, thesis, tension, stance, world
+- [x] `brand-voice.md` — conformant; 3 registers, 25 owned words, 5 calibration pairs
+- [x] `audience.md` — behaviour-defined segments, objections, archetype mapping
+- [x] `product-philosophy.md` — weight-first making logic
+- [x] `visual-identity.md` — conformant; 5 motifs, gaze policy, 10 prohibitions
+- [x] `campaign-memory.md` — conformant, empty, ready to log
+- [ ] ⛔ `collection-dna.md` — structurally complete, **zero verified facts**
 
-**Blocker:** no information about Present Clothing exists in this repository.
-Category, positioning, price tier, audience, aesthetic and collection detail are
-all unknown. These cannot be invented — they are the founder's raw material.
+**Blocker:** all four pieces are `status: concept` with `[unverified]` materials,
+weights, construction, prices — and no maker's detail. Concept pieces are never
+campaigned (`campaign` contract) and unverified facts never reach output (G1), so
+Phase 5 is blocked at engine level rather than by convention.
+
+Everything except real product data is now in place. Fill `collection-dna.md` and
+the pack goes live.
 
 ---
 

@@ -15,18 +15,26 @@ the task list.
 One blocker remains, and it is the only thing standing between the system and
 its first output.
 
-### No Present Clothing brand inputs exist
+### No verified Present Clothing product facts exist
 
-The repository contains no information about Present Clothing: category,
-positioning, price tier, audience, aesthetic, collection detail. A premium
-brand's voice and DNA cannot be fabricated from an empty context, and every
-engine refuses to invent product facts by design (gate G1).
+The Brand Pack is now authored as a **proposal** derived from the brand name
+alone — brand bible, voice, audience, product philosophy, visual identity and
+campaign memory are all in place and contract-conformant.
 
-**Founder input required.** Blocks Phase 2, which gates Phase 5.
+`collection-dna.md` is the exception. It is structurally complete but holds
+**zero verified facts**: four pieces at `status: concept`, `[unverified]`
+materials, weights, construction and prices, and no maker's detail on any piece.
 
-The brand-agnostic system is complete: Foundation, Contracts, Engines,
-Archetypes, Blueprints and one Adapter are all authored and committed. The
-machine is built and has nothing to run on.
+**This blocks Phase 5 structurally, not by convention.** Concept pieces are never
+campaigned (`campaign` contract, rule 2) and unverified facts never reach output
+(gate G1) — so any engine asked to generate a campaign will report the gap and
+refuse. The blocker lives in the system rather than in a conversation.
+
+**Founder input required:** per piece — materials with fibre percentages, weight,
+construction, sizing, price, and the maker's detail. Plus mill and factory names,
+or an explicit decision to make no origin claims.
+
+Fill those, set pieces to `production`, and everything downstream runs.
 
 ---
 
@@ -71,7 +79,7 @@ files, no unexpected entries. Committed as the repository's architecture baselin
 | `campaigns/` | ✅ 5 archetypes |
 | `production-blueprints/` | ✅ 2 blueprints |
 | `adapters/` | ✅ 1 adapter (`social-vertical`) |
-| `brandpacks/present-clothing/` | ⛔ scaffold — blocked on founder inputs |
+| `brandpacks/present-clothing/` | 🚧 `partial` — 7 artifacts authored; `collection-dna` has no verified facts |
 | `docs/` | Empty — no human-facing docs needed yet |
 | `archive/` | Empty — nothing superseded |
 
