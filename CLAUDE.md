@@ -35,13 +35,20 @@ interrupt implementation to discuss them.
 
 ## Working order (default loop)
 
-1. Read `CLAUDE.md`
-2. Read `PROJECT_STATUS.md` and `ROADMAP.md`
-3. Take the next highest-priority unblocked task
-4. Implement it, saving files to their correct location
-5. Update `PROJECT_STATUS.md` and tick `ROADMAP.md`
-6. Stage changes
-7. Continue
+1. Read `docs/HANDOFF.md` — **start here**, it is faster than re-reading the repo
+2. Read `CLAUDE.md`
+3. Read `PROJECT_STATUS.md` and `ROADMAP.md`
+4. Take the next highest-priority unblocked task
+5. Implement it, saving files to their correct location
+6. Update `PROJECT_STATUS.md` and tick `ROADMAP.md`
+7. Stage changes
+8. Continue
+
+**Before ending any session: rewrite `docs/HANDOFF.md`.** Not optional. It is
+the entry point for the next session, and a stale handoff is worse than none —
+it asserts a state that is no longer true.
+
+Keep it short and supersede rather than append. History lives in git.
 
 Work continuously until a genuine founder decision is required.
 
